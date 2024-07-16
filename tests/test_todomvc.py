@@ -4,7 +4,7 @@ import os
 
 def test_complete_todo():
 
-    browser.open('/')
+    browser.open('/automation-practice-form')
 
     browser.element('#firstName').type('Anastasia')
     browser.element('#lastName').type('Strelnik')
